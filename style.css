@@ -4,6 +4,12 @@ body {
 
 a {
     text-decoration: none;
+    background-color: red;
+    color: royalblue;
+}
+
+h1 {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
 }
 
 #page-title {
