@@ -2,6 +2,10 @@ body {
     background-color: beige;
 }
 
+h1 {
+    text-align: center;
+}
+
 a {
     font-size: 20px;
     text-decoration: none;
@@ -12,6 +16,7 @@ a {
 }
 
 #page-title {
+    text-align: center;
     color: blue;
     font-size: 40px;
     font-family: Sans-serif, Arial, Helvetica;
@@ -24,15 +29,14 @@ a {
 }
 
 #most-favorite-food {
+    font-weight: bold;
+    font-family: fantasy, Arial, Helvetica;
+    color: red;
 
 }
 
 .favorite-image {
     border-radius: 20px;
-}
-
-#favorite-music-name {
-
 }
 
 table, td, th {
@@ -41,7 +45,30 @@ table, td, th {
     text-align: left;  
   }
 
+  th {
+      color: green;
+  }
+
+  td {
+      color: orange;
+  }
+
   .section-header {
-      font-family: fantasy, Arial, Helvetica;
+    font-family: fantasy, Arial, Helvetica;
+    font-size: 25px;
   }
   
+  #favorite-movie-title {
+    font-style: italic;
+  }
+
+  p {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+  }
+
+  #favorite-music-artist-name {
+    font-weight: bold;
+  }
