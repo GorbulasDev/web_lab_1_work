@@ -3,21 +3,24 @@ body {
 }
 
 a {
+    font-size: 20px;
     text-decoration: none;
-    background-color: red;
+    background-color: rgb(75, 49, 49);
     color: royalblue;
-}
-
-h1 {
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: white;
 }
 
 #page-title {
     color: blue;
+    font-size: 40px;
+    font-family: Sans-serif, Arial, Helvetica;
 }
 
 .favorite-section {
-
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid grey;
 }
 
 #most-favorite-food {
@@ -25,9 +28,20 @@ h1 {
 }
 
 .favorite-image {
-    
+    border-radius: 20px;
 }
 
 #favorite-music-name {
 
 }
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;  
+  }
+
+  .section-header {
+      font-family: fantasy, Arial, Helvetica;
+  }
+  
